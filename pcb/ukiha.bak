@@ -1,0 +1,1988 @@
+EESchema Schematic File Version 4
+LIBS:ukiha-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "te96 Sukeroku Keyboard"
+Date ""
+Rev "5"
+Comp "@e3w2q"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 6200 2100 0    39   Input ~ 0
+Y1
+$Comp
+L power:GND #PWR02
+U 1 1 5CE3BEE4
+P 1050 950
+F 0 "#PWR02" H 1050 700 50  0001 C CNN
+F 1 "GND" H 1050 800 50  0000 C CNN
+F 2 "" H 1050 950 50  0001 C CNN
+F 3 "" H 1050 950 50  0001 C CNN
+	1    1050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5CE3BEEA
+P 1050 800
+F 0 "#FLG01" H 1050 875 50  0001 C CNN
+F 1 "PWR_FLAG" H 1050 950 50  0000 C CNN
+F 2 "" H 1050 800 50  0001 C CNN
+F 3 "" H 1050 800 50  0001 C CNN
+	1    1050 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5CE3BEF0
+P 700 950
+F 0 "#FLG02" H 700 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 700 1100 50  0000 C CNN
+F 2 "" H 700 950 50  0001 C CNN
+F 3 "" H 700 950 50  0001 C CNN
+	1    700  950 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 800  1050 950 
+Wire Wire Line
+	700  800  700  950 
+$Comp
+L power:VCC #PWR01
+U 1 1 5CE3E880
+P 700 800
+F 0 "#PWR01" H 700 650 50  0001 C CNN
+F 1 "VCC" H 717 973 50  0000 C CNN
+F 2 "" H 700 800 50  0001 C CNN
+F 3 "" H 700 800 50  0001 C CNN
+	1    700  800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 5CE3F20D
+P 3200 1450
+F 0 "#PWR03" H 3200 1300 50  0001 C CNN
+F 1 "VCC" H 3217 1623 50  0000 C CNN
+F 2 "" H 3200 1450 50  0001 C CNN
+F 3 "" H 3200 1450 50  0001 C CNN
+	1    3200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5CE4B3AC
+P 950 2050
+F 0 "#PWR05" H 950 1800 50  0001 C CNN
+F 1 "GND" H 950 1900 50  0000 C CNN
+F 2 "" H 950 2050 50  0001 C CNN
+F 3 "" H 950 2050 50  0001 C CNN
+	1    950  2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 6600 1450 1    39   Input ~ 0
+X1
+Text GLabel 7650 1450 1    39   Input ~ 0
+X2
+Text GLabel 8750 1450 1    39   Input ~ 0
+X3
+Wire Wire Line
+	950  1950 950  2050
+Text GLabel 950  1950 0    50   Input ~ 0
+GND
+Text GLabel 2850 1800 2    50   Input ~ 0
+GND
+Text GLabel 9800 1450 1    39   Input ~ 0
+X4
+NoConn ~ 2850 1600
+Wire Wire Line
+	3200 1450 3200 2000
+Wire Wire Line
+	2850 2000 3200 2000
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5EB6B802
+P 2000 6550
+F 0 "J1" H 2080 6592 50  0000 L CNN
+F 1 "Conn_01x03" H 2080 6501 50  0000 L CNN
+F 2 "#footprint:StripLED_rev2" H 2000 6550 50  0001 C CNN
+F 3 "~" H 2000 6550 50  0001 C CNN
+	1    2000 6550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR06
+U 1 1 5EB6B808
+P 2400 6300
+F 0 "#PWR06" H 2400 6150 50  0001 C CNN
+F 1 "VCC" H 2417 6473 50  0000 C CNN
+F 2 "" H 2400 6300 50  0001 C CNN
+F 3 "" H 2400 6300 50  0001 C CNN
+	1    2400 6300
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2200 6550 2    50   Input ~ 0
+led
+$Comp
+L power:GND #PWR08
+U 1 1 5EB6B80F
+P 2400 6700
+F 0 "#PWR08" H 2400 6450 50  0001 C CNN
+F 1 "GND" H 2400 6550 50  0000 C CNN
+F 2 "" H 2400 6700 50  0001 C CNN
+F 3 "" H 2400 6700 50  0001 C CNN
+	1    2400 6700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 6700 2400 6650
+Wire Wire Line
+	2400 6650 2200 6650
+Wire Wire Line
+	2200 6450 2400 6450
+Wire Wire Line
+	2400 6450 2400 6300
+$Comp
+L #library:BLEMicroPro U1
+U 1 1 5CE18F26
+P 2150 2450
+F 0 "U1" H 2150 3600 60  0000 C CNN
+F 1 "ProMicro/BLEMicroPro" H 2150 3450 60  0000 C CNN
+F 2 "#footprint:ArduinoProMicro_ConThrough" H 2250 1400 60  0001 C CNN
+F 3 "" H 2250 1400 60  0000 C CNN
+	1    2150 2450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2850 1700
+NoConn ~ 2850 1900
+Text GLabel 6200 3900 0    39   Input ~ 0
+Y4
+Text GLabel 6200 4500 0    39   Input ~ 0
+Y5
+Text GLabel 6200 2700 0    39   Input ~ 0
+Y2
+Text GLabel 6200 3300 0    39   Input ~ 0
+Y3
+NoConn ~ 1450 1600
+Text GLabel 10850 1450 1    39   Input ~ 0
+X5
+Text GLabel 11900 1450 1    39   Input ~ 0
+X6
+Text GLabel 13000 1450 1    39   Input ~ 0
+X7
+Text GLabel 14050 1450 1    39   Input ~ 0
+X8
+Text GLabel 15150 1450 1    39   Input ~ 0
+X9
+Text GLabel 16200 1450 1    39   Input ~ 0
+X10
+Text GLabel 17250 1450 1    39   Input ~ 0
+X11
+Text GLabel 18300 1450 1    39   Input ~ 0
+X12
+Wire Wire Line
+	13500 4200 13500 4000
+Wire Wire Line
+	13500 4000 13000 4000
+Connection ~ 13000 4000
+Wire Wire Line
+	13000 4000 13000 4200
+Wire Wire Line
+	6600 1450 6600 1800
+Wire Wire Line
+	7650 1450 7650 1800
+$Comp
+L #library:SW_Push SW1
+U 1 1 5F8174DF
+P 6800 1800
+F 0 "SW1" H 6800 2085 50  0000 C CNN
+F 1 "SW_Push" H 6800 1994 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 6800 2000 50  0001 C CNN
+F 3 "" H 6800 2000 50  0001 C CNN
+	1    6800 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 1800
+Wire Wire Line
+	6600 1800 6600 2400
+$Comp
+L #library:SW_Push SW13
+U 1 1 5F81768E
+P 6800 2400
+F 0 "SW13" H 6800 2685 50  0000 C CNN
+F 1 "SW_Push" H 6800 2594 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 6800 2600 50  0001 C CNN
+F 3 "" H 6800 2600 50  0001 C CNN
+	1    6800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L #library:SW_Push SW25
+U 1 1 5F817720
+P 6800 3000
+F 0 "SW25" H 6800 3285 50  0000 C CNN
+F 1 "SW_Push" H 6800 3194 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 6800 3200 50  0001 C CNN
+F 3 "" H 6800 3200 50  0001 C CNN
+	1    6800 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 3000
+Wire Wire Line
+	6600 3000 6600 3600
+Connection ~ 6600 2400
+Wire Wire Line
+	6600 2400 6600 3000
+$Comp
+L #library:SW_Push SW37
+U 1 1 5F8178BB
+P 6800 3600
+F 0 "SW37" H 6800 3885 50  0000 C CNN
+F 1 "SW_Push" H 6800 3794 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 6800 3800 50  0001 C CNN
+F 3 "" H 6800 3800 50  0001 C CNN
+	1    6800 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 3600
+Wire Wire Line
+	6600 3600 6600 4200
+$Comp
+L #library:SW_Push SW49
+U 1 1 5F817957
+P 6800 4200
+F 0 "SW49" H 6800 4485 50  0000 C CNN
+F 1 "SW_Push" H 6800 4394 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 6800 4400 50  0001 C CNN
+F 3 "" H 6800 4400 50  0001 C CNN
+	1    6800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L #library:SW_Push SW2
+U 1 1 5F8179F7
+P 7850 1800
+F 0 "SW2" H 7850 2085 50  0000 C CNN
+F 1 "SW_Push" H 7850 1994 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 7850 2000 50  0001 C CNN
+F 3 "" H 7850 2000 50  0001 C CNN
+	1    7850 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 7650 1800
+Wire Wire Line
+	7650 1800 7650 2400
+$Comp
+L #library:SW_Push SW14
+U 1 1 5F817AA9
+P 7850 2400
+F 0 "SW14" H 7850 2685 50  0000 C CNN
+F 1 "SW_Push" H 7850 2594 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 7850 2600 50  0001 C CNN
+F 3 "" H 7850 2600 50  0001 C CNN
+	1    7850 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 7650 2400
+Wire Wire Line
+	7650 2400 7650 3000
+$Comp
+L #library:SW_Push SW26
+U 1 1 5F817B53
+P 7850 3000
+F 0 "SW26" H 7850 3285 50  0000 C CNN
+F 1 "SW_Push" H 7850 3194 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 7850 3200 50  0001 C CNN
+F 3 "" H 7850 3200 50  0001 C CNN
+	1    7850 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7650 3000
+Wire Wire Line
+	7650 3000 7650 3600
+$Comp
+L #library:SW_Push SW38
+U 1 1 5F817BED
+P 7850 3600
+F 0 "SW38" H 7850 3885 50  0000 C CNN
+F 1 "SW_Push" H 7850 3794 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 7850 3800 50  0001 C CNN
+F 3 "" H 7850 3800 50  0001 C CNN
+	1    7850 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 7650 3600
+Wire Wire Line
+	7650 3600 7650 4200
+$Comp
+L #library:SW_Push SW50
+U 1 1 5F817C97
+P 7850 4200
+F 0 "SW50" H 7850 4485 50  0000 C CNN
+F 1 "SW_Push" H 7850 4394 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 7850 4400 50  0001 C CNN
+F 3 "" H 7850 4400 50  0001 C CNN
+	1    7850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 1450 8750 1800
+Wire Wire Line
+	9800 1450 9800 1800
+Wire Wire Line
+	10850 1450 10850 1800
+Wire Wire Line
+	11900 1450 11900 1800
+Wire Wire Line
+	13000 1450 13000 1800
+Wire Wire Line
+	14050 1450 14050 1800
+Wire Wire Line
+	15150 1450 15150 1800
+Wire Wire Line
+	16200 1450 16200 1800
+Wire Wire Line
+	17250 1450 17250 1800
+Wire Wire Line
+	6200 4500 7000 4500
+Wire Wire Line
+	6200 3900 7000 3900
+Wire Wire Line
+	6200 3300 7000 3300
+Wire Wire Line
+	6200 2700 7000 2700
+Wire Wire Line
+	6200 2100 7000 2100
+Wire Wire Line
+	18300 1450 18300 1800
+$Comp
+L #library:SW_Push SW3
+U 1 1 5F81C4B8
+P 8950 1800
+F 0 "SW3" H 8950 2085 50  0000 C CNN
+F 1 "SW_Push" H 8950 1994 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 8950 2000 50  0001 C CNN
+F 3 "" H 8950 2000 50  0001 C CNN
+	1    8950 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 1800
+Wire Wire Line
+	8750 1800 8750 2400
+$Comp
+L #library:SW_Push SW15
+U 1 1 5F81C51A
+P 8950 2400
+F 0 "SW15" H 8950 2685 50  0000 C CNN
+F 1 "SW_Push" H 8950 2594 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 8950 2600 50  0001 C CNN
+F 3 "" H 8950 2600 50  0001 C CNN
+	1    8950 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 2400
+Wire Wire Line
+	8750 2400 8750 3000
+$Comp
+L #library:SW_Push SW27
+U 1 1 5F81C564
+P 8950 3000
+F 0 "SW27" H 8950 3285 50  0000 C CNN
+F 1 "SW_Push" H 8950 3194 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 8950 3200 50  0001 C CNN
+F 3 "" H 8950 3200 50  0001 C CNN
+	1    8950 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 3000
+Wire Wire Line
+	8750 3000 8750 3600
+$Comp
+L #library:SW_Push SW39
+U 1 1 5F81C5AE
+P 8950 3600
+F 0 "SW39" H 8950 3885 50  0000 C CNN
+F 1 "SW_Push" H 8950 3794 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 8950 3800 50  0001 C CNN
+F 3 "" H 8950 3800 50  0001 C CNN
+	1    8950 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 3600
+Wire Wire Line
+	8750 3600 8750 4200
+$Comp
+L #library:SW_Push SW51
+U 1 1 5F81C5F8
+P 8950 4200
+F 0 "SW51" H 8950 4485 50  0000 C CNN
+F 1 "SW_Push" H 8950 4394 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 8950 4400 50  0001 C CNN
+F 3 "" H 8950 4400 50  0001 C CNN
+	1    8950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L #library:SW_Push SW4
+U 1 1 5F81C6C5
+P 10000 1800
+F 0 "SW4" H 10000 2085 50  0000 C CNN
+F 1 "SW_Push" H 10000 1994 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 10000 2000 50  0001 C CNN
+F 3 "" H 10000 2000 50  0001 C CNN
+	1    10000 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 9800 1800
+Wire Wire Line
+	9800 1800 9800 2400
+$Comp
+L #library:SW_Push SW16
+U 1 1 5F81C777
+P 10000 2400
+F 0 "SW16" H 10000 2685 50  0000 C CNN
+F 1 "SW_Push" H 10000 2594 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 10000 2600 50  0001 C CNN
+F 3 "" H 10000 2600 50  0001 C CNN
+	1    10000 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 9800 2400
+Wire Wire Line
+	9800 2400 9800 3000
+$Comp
+L #library:SW_Push SW28
+U 1 1 5F81C7C9
+P 10000 3000
+F 0 "SW28" H 10000 3285 50  0000 C CNN
+F 1 "SW_Push" H 10000 3194 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 10000 3200 50  0001 C CNN
+F 3 "" H 10000 3200 50  0001 C CNN
+	1    10000 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 9800 3000
+Wire Wire Line
+	9800 3000 9800 3600
+$Comp
+L #library:SW_Push SW40
+U 1 1 5F81C871
+P 10000 3600
+F 0 "SW40" H 10000 3885 50  0000 C CNN
+F 1 "SW_Push" H 10000 3794 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 10000 3800 50  0001 C CNN
+F 3 "" H 10000 3800 50  0001 C CNN
+	1    10000 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 9800 3600
+Wire Wire Line
+	9800 3600 9800 4200
+$Comp
+L #library:SW_Push SW52
+U 1 1 5F81C8C5
+P 10000 4200
+F 0 "SW52" H 10000 4485 50  0000 C CNN
+F 1 "SW_Push" H 10000 4394 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 10000 4400 50  0001 C CNN
+F 3 "" H 10000 4400 50  0001 C CNN
+	1    10000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L #library:SW_Push SW53
+U 1 1 5F81C919
+P 11050 4200
+F 0 "SW53" H 11050 4485 50  0000 C CNN
+F 1 "SW_Push" H 11050 4394 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 11050 4400 50  0001 C CNN
+F 3 "" H 11050 4400 50  0001 C CNN
+	1    11050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L #library:SW_Push SW41
+U 1 1 5F81CA28
+P 11050 3600
+F 0 "SW41" H 11050 3885 50  0000 C CNN
+F 1 "SW_Push" H 11050 3794 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 11050 3800 50  0001 C CNN
+F 3 "" H 11050 3800 50  0001 C CNN
+	1    11050 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 10850 3600
+$Comp
+L #library:SW_Push SW29
+U 1 1 5F81CAEE
+P 11050 3000
+F 0 "SW29" H 11050 3285 50  0000 C CNN
+F 1 "SW_Push" H 11050 3194 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 11050 3200 50  0001 C CNN
+F 3 "" H 11050 3200 50  0001 C CNN
+	1    11050 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 10850 3000
+Wire Wire Line
+	10850 3000 10850 3600
+$Comp
+L #library:SW_Push SW17
+U 1 1 5F81CB84
+P 11050 2400
+F 0 "SW17" H 11050 2685 50  0000 C CNN
+F 1 "SW_Push" H 11050 2594 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 11050 2600 50  0001 C CNN
+F 3 "" H 11050 2600 50  0001 C CNN
+	1    11050 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 10850 2400
+Wire Wire Line
+	10850 2400 10850 3000
+$Comp
+L #library:SW_Push SW5
+U 1 1 5F81CBDE
+P 11050 1800
+F 0 "SW5" H 11050 2085 50  0000 C CNN
+F 1 "SW_Push" H 11050 1994 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 11050 2000 50  0001 C CNN
+F 3 "" H 11050 2000 50  0001 C CNN
+	1    11050 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 10850 1800
+Wire Wire Line
+	10850 1800 10850 2400
+$Comp
+L #library:SW_Push SW6
+U 1 1 5F81CC44
+P 12100 1800
+F 0 "SW6" H 12100 2085 50  0000 C CNN
+F 1 "SW_Push" H 12100 1994 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 12100 2000 50  0001 C CNN
+F 3 "" H 12100 2000 50  0001 C CNN
+	1    12100 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 11900 1800
+Wire Wire Line
+	11900 1800 11900 2400
+$Comp
+L #library:SW_Push SW18
+U 1 1 5F81CCA8
+P 12100 2400
+F 0 "SW18" H 12100 2685 50  0000 C CNN
+F 1 "SW_Push" H 12100 2594 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 12100 2600 50  0001 C CNN
+F 3 "" H 12100 2600 50  0001 C CNN
+	1    12100 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 11900 2400
+Wire Wire Line
+	11900 2400 11900 3000
+$Comp
+L #library:SW_Push SW30
+U 1 1 5F81CD10
+P 12100 3000
+F 0 "SW30" H 12100 3285 50  0000 C CNN
+F 1 "SW_Push" H 12100 3194 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 12100 3200 50  0001 C CNN
+F 3 "" H 12100 3200 50  0001 C CNN
+	1    12100 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 11900 3000
+Wire Wire Line
+	11900 3000 11900 3600
+$Comp
+L #library:SW_Push SW42
+U 1 1 5F81CD72
+P 12100 3600
+F 0 "SW42" H 12100 3885 50  0000 C CNN
+F 1 "SW_Push" H 12100 3794 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 12100 3800 50  0001 C CNN
+F 3 "" H 12100 3800 50  0001 C CNN
+	1    12100 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 11900 3600
+Wire Wire Line
+	11900 3600 11900 4000
+$Comp
+L #library:SW_Push SW54
+U 1 1 5F81CDD4
+P 12100 4200
+F 0 "SW54" H 12100 4485 50  0000 C CNN
+F 1 "SW_Push" H 12100 4394 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 12100 4400 50  0001 C CNN
+F 3 "" H 12100 4400 50  0001 C CNN
+	1    12100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L #library:SW_Push SW7
+U 1 1 5F81CE3C
+P 13200 1800
+F 0 "SW7" H 13200 2085 50  0000 C CNN
+F 1 "SW_Push" H 13200 1994 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 13200 2000 50  0001 C CNN
+F 3 "" H 13200 2000 50  0001 C CNN
+	1    13200 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 13000 1800
+Wire Wire Line
+	13000 1800 13000 2400
+$Comp
+L #library:SW_Push SW19
+U 1 1 5F81CEFC
+P 13200 2400
+F 0 "SW19" H 13200 2685 50  0000 C CNN
+F 1 "SW_Push" H 13200 2594 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 13200 2600 50  0001 C CNN
+F 3 "" H 13200 2600 50  0001 C CNN
+	1    13200 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 13000 2400
+Wire Wire Line
+	13000 2400 13000 3000
+$Comp
+L #library:SW_Push SW31
+U 1 1 5F81CF5E
+P 13200 3000
+F 0 "SW31" H 13200 3285 50  0000 C CNN
+F 1 "SW_Push" H 13200 3194 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 13200 3200 50  0001 C CNN
+F 3 "" H 13200 3200 50  0001 C CNN
+	1    13200 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 13000 3000
+Wire Wire Line
+	13000 3000 13000 3600
+$Comp
+L #library:SW_Push SW43
+U 1 1 5F81CFCA
+P 13200 3600
+F 0 "SW43" H 13200 3885 50  0000 C CNN
+F 1 "SW_Push" H 13200 3794 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 13200 3800 50  0001 C CNN
+F 3 "" H 13200 3800 50  0001 C CNN
+	1    13200 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 13000 3600
+Wire Wire Line
+	13000 3600 13000 4000
+$Comp
+L #library:SW_Push SW55
+U 1 1 5F81D036
+P 13200 4200
+F 0 "SW55" H 13200 4485 50  0000 C CNN
+F 1 "SW_Push" H 13200 4394 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 13200 4400 50  0001 C CNN
+F 3 "" H 13200 4400 50  0001 C CNN
+	1    13200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L #library:SW_Push SW8
+U 1 1 5F81D0AC
+P 14250 1800
+F 0 "SW8" H 14250 2085 50  0000 C CNN
+F 1 "SW_Push" H 14250 1994 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 14250 2000 50  0001 C CNN
+F 3 "" H 14250 2000 50  0001 C CNN
+	1    14250 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 14050 1800
+Wire Wire Line
+	14050 1800 14050 2400
+$Comp
+L #library:SW_Push SW20
+U 1 1 5F81D132
+P 14250 2400
+F 0 "SW20" H 14250 2685 50  0000 C CNN
+F 1 "SW_Push" H 14250 2594 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 14250 2600 50  0001 C CNN
+F 3 "" H 14250 2600 50  0001 C CNN
+	1    14250 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 14050 2400
+Wire Wire Line
+	14050 2400 14050 3000
+$Comp
+L #library:SW_Push SW32
+U 1 1 5F81D1A6
+P 14250 3000
+F 0 "SW32" H 14250 3285 50  0000 C CNN
+F 1 "SW_Push" H 14250 3194 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 14250 3200 50  0001 C CNN
+F 3 "" H 14250 3200 50  0001 C CNN
+	1    14250 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 14050 3000
+Wire Wire Line
+	14050 3000 14050 3600
+$Comp
+L #library:SW_Push SW44
+U 1 1 5F81D216
+P 14250 3600
+F 0 "SW44" H 14250 3885 50  0000 C CNN
+F 1 "SW_Push" H 14250 3794 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 14250 3800 50  0001 C CNN
+F 3 "" H 14250 3800 50  0001 C CNN
+	1    14250 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 14050 3600
+Wire Wire Line
+	14050 3600 14050 4200
+$Comp
+L #library:SW_Push SW56
+U 1 1 5F81D292
+P 14250 4200
+F 0 "SW56" H 14250 4485 50  0000 C CNN
+F 1 "SW_Push" H 14250 4394 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 14250 4400 50  0001 C CNN
+F 3 "" H 14250 4400 50  0001 C CNN
+	1    14250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L #library:SW_Push SW9
+U 1 1 5F81D364
+P 15350 1800
+F 0 "SW9" H 15350 2085 50  0000 C CNN
+F 1 "SW_Push" H 15350 1994 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 15350 2000 50  0001 C CNN
+F 3 "" H 15350 2000 50  0001 C CNN
+	1    15350 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 15150 1800
+Wire Wire Line
+	15150 1800 15150 2400
+$Comp
+L #library:SW_Push SW21
+U 1 1 5F81D769
+P 15350 2400
+F 0 "SW21" H 15350 2685 50  0000 C CNN
+F 1 "SW_Push" H 15350 2594 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 15350 2600 50  0001 C CNN
+F 3 "" H 15350 2600 50  0001 C CNN
+	1    15350 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 15150 2400
+Wire Wire Line
+	15150 2400 15150 3000
+$Comp
+L #library:SW_Push SW33
+U 1 1 5F81D811
+P 15350 3000
+F 0 "SW33" H 15350 3285 50  0000 C CNN
+F 1 "SW_Push" H 15350 3194 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 15350 3200 50  0001 C CNN
+F 3 "" H 15350 3200 50  0001 C CNN
+	1    15350 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 15150 3000
+Wire Wire Line
+	15150 3000 15150 3600
+$Comp
+L #library:SW_Push SW45
+U 1 1 5F81D891
+P 15350 3600
+F 0 "SW45" H 15350 3885 50  0000 C CNN
+F 1 "SW_Push" H 15350 3794 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 15350 3800 50  0001 C CNN
+F 3 "" H 15350 3800 50  0001 C CNN
+	1    15350 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 15150 3600
+Wire Wire Line
+	15150 3600 15150 4200
+$Comp
+L #library:SW_Push SW57
+U 1 1 5F81D925
+P 15350 4200
+F 0 "SW57" H 15350 4485 50  0000 C CNN
+F 1 "SW_Push" H 15350 4394 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 15350 4400 50  0001 C CNN
+F 3 "" H 15350 4400 50  0001 C CNN
+	1    15350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L #library:SW_Push SW10
+U 1 1 5F81D99F
+P 16400 1800
+F 0 "SW10" H 16400 2085 50  0000 C CNN
+F 1 "SW_Push" H 16400 1994 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 16400 2000 50  0001 C CNN
+F 3 "" H 16400 2000 50  0001 C CNN
+	1    16400 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 16200 1800
+Wire Wire Line
+	16200 1800 16200 2400
+$Comp
+L #library:SW_Push SW22
+U 1 1 5F81DA43
+P 16400 2400
+F 0 "SW22" H 16400 2685 50  0000 C CNN
+F 1 "SW_Push" H 16400 2594 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 16400 2600 50  0001 C CNN
+F 3 "" H 16400 2600 50  0001 C CNN
+	1    16400 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 16200 2400
+Wire Wire Line
+	16200 2400 16200 3000
+$Comp
+L #library:SW_Push SW34
+U 1 1 5F81DAC1
+P 16400 3000
+F 0 "SW34" H 16400 3285 50  0000 C CNN
+F 1 "SW_Push" H 16400 3194 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 16400 3200 50  0001 C CNN
+F 3 "" H 16400 3200 50  0001 C CNN
+	1    16400 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 16200 3000
+Wire Wire Line
+	16200 3000 16200 3600
+$Comp
+L #library:SW_Push SW46
+U 1 1 5F81DB51
+P 16400 3600
+F 0 "SW46" H 16400 3885 50  0000 C CNN
+F 1 "SW_Push" H 16400 3794 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 16400 3800 50  0001 C CNN
+F 3 "" H 16400 3800 50  0001 C CNN
+	1    16400 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 16200 3600
+Wire Wire Line
+	16200 3600 16200 4200
+$Comp
+L #library:SW_Push SW58
+U 1 1 5F81DC57
+P 16400 4200
+F 0 "SW58" H 16400 4485 50  0000 C CNN
+F 1 "SW_Push" H 16400 4394 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 16400 4400 50  0001 C CNN
+F 3 "" H 16400 4400 50  0001 C CNN
+	1    16400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L #library:SW_Push SW11
+U 1 1 5F81DD55
+P 17450 1800
+F 0 "SW11" H 17450 2085 50  0000 C CNN
+F 1 "SW_Push" H 17450 1994 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 17450 2000 50  0001 C CNN
+F 3 "" H 17450 2000 50  0001 C CNN
+	1    17450 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 17250 1800
+Wire Wire Line
+	17250 1800 17250 2400
+$Comp
+L #library:SW_Push SW23
+U 1 1 5F81DE7B
+P 17450 2400
+F 0 "SW23" H 17450 2685 50  0000 C CNN
+F 1 "SW_Push" H 17450 2594 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 17450 2600 50  0001 C CNN
+F 3 "" H 17450 2600 50  0001 C CNN
+	1    17450 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 17250 2400
+Wire Wire Line
+	17250 2400 17250 3000
+$Comp
+L #library:SW_Push SW35
+U 1 1 5F81DF07
+P 17450 3000
+F 0 "SW35" H 17450 3285 50  0000 C CNN
+F 1 "SW_Push" H 17450 3194 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 17450 3200 50  0001 C CNN
+F 3 "" H 17450 3200 50  0001 C CNN
+	1    17450 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 17250 3000
+Wire Wire Line
+	17250 3000 17250 3600
+$Comp
+L #library:SW_Push SW47
+U 1 1 5F81E052
+P 17450 3600
+F 0 "SW47" H 17450 3885 50  0000 C CNN
+F 1 "SW_Push" H 17450 3794 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 17450 3800 50  0001 C CNN
+F 3 "" H 17450 3800 50  0001 C CNN
+	1    17450 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 17250 3600
+Wire Wire Line
+	17250 3600 17250 4200
+$Comp
+L #library:SW_Push SW59
+U 1 1 5F81E0E2
+P 17450 4200
+F 0 "SW59" H 17450 4485 50  0000 C CNN
+F 1 "SW_Push" H 17450 4394 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 17450 4400 50  0001 C CNN
+F 3 "" H 17450 4400 50  0001 C CNN
+	1    17450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L #library:SW_Push SW12
+U 1 1 5F81E233
+P 18500 1800
+F 0 "SW12" H 18500 2085 50  0000 C CNN
+F 1 "SW_Push" H 18500 1994 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 18500 2000 50  0001 C CNN
+F 3 "" H 18500 2000 50  0001 C CNN
+	1    18500 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 18300 1800
+Wire Wire Line
+	18300 1800 18300 2400
+$Comp
+L #library:SW_Push SW24
+U 1 1 5F81E36D
+P 18500 2400
+F 0 "SW24" H 18500 2685 50  0000 C CNN
+F 1 "SW_Push" H 18500 2594 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 18500 2600 50  0001 C CNN
+F 3 "" H 18500 2600 50  0001 C CNN
+	1    18500 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 18300 2400
+Wire Wire Line
+	18300 2400 18300 3000
+$Comp
+L #library:SW_Push SW36
+U 1 1 5F81E40B
+P 18500 3000
+F 0 "SW36" H 18500 3285 50  0000 C CNN
+F 1 "SW_Push" H 18500 3194 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 18500 3200 50  0001 C CNN
+F 3 "" H 18500 3200 50  0001 C CNN
+	1    18500 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 18300 3000
+Wire Wire Line
+	18300 3000 18300 3600
+$Comp
+L #library:SW_Push SW48
+U 1 1 5F81E531
+P 18500 3600
+F 0 "SW48" H 18500 3885 50  0000 C CNN
+F 1 "SW_Push" H 18500 3794 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 18500 3800 50  0001 C CNN
+F 3 "" H 18500 3800 50  0001 C CNN
+	1    18500 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 18300 3600
+Wire Wire Line
+	18300 3600 18300 4200
+$Comp
+L #library:SW_Push SW60
+U 1 1 5F81E5D3
+P 18500 4200
+F 0 "SW60" H 18500 4485 50  0000 C CNN
+F 1 "SW_Push" H 18500 4394 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 18500 4400 50  0001 C CNN
+F 3 "" H 18500 4400 50  0001 C CNN
+	1    18500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L #library:D D1
+U 1 1 5F81E919
+P 7000 1950
+F 0 "D1" V 7046 1871 50  0000 R CNN
+F 1 "D" V 6955 1871 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 7000 1950 50  0001 C CNN
+F 3 "" H 7000 1950 50  0001 C CNN
+	1    7000 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7000 2100
+Wire Wire Line
+	7000 2100 8050 2100
+$Comp
+L #library:D D13
+U 1 1 5F81EB65
+P 7000 2550
+F 0 "D13" V 7046 2471 50  0000 R CNN
+F 1 "D" V 6955 2471 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 7000 2550 50  0001 C CNN
+F 3 "" H 7000 2550 50  0001 C CNN
+	1    7000 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7000 2700
+Wire Wire Line
+	7000 2700 8050 2700
+$Comp
+L #library:D D25
+U 1 1 5F81EC19
+P 7000 3150
+F 0 "D25" V 7046 3071 50  0000 R CNN
+F 1 "D" V 6955 3071 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 7000 3150 50  0001 C CNN
+F 3 "" H 7000 3150 50  0001 C CNN
+	1    7000 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7000 3300
+Wire Wire Line
+	7000 3300 8050 3300
+$Comp
+L #library:D D37
+U 1 1 5F81ECC7
+P 7000 3750
+F 0 "D37" V 7046 3671 50  0000 R CNN
+F 1 "D" V 6955 3671 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 7000 3750 50  0001 C CNN
+F 3 "" H 7000 3750 50  0001 C CNN
+	1    7000 3750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7000 3900
+Wire Wire Line
+	7000 3900 8050 3900
+$Comp
+L #library:D D49
+U 1 1 5F81ED73
+P 7000 4350
+F 0 "D49" V 7046 4271 50  0000 R CNN
+F 1 "D" V 6955 4271 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 7000 4350 50  0001 C CNN
+F 3 "" H 7000 4350 50  0001 C CNN
+	1    7000 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7000 4500
+Wire Wire Line
+	7000 4500 8050 4500
+$Comp
+L #library:D D2
+U 1 1 5F81EE6E
+P 8050 1950
+F 0 "D2" V 8096 1871 50  0000 R CNN
+F 1 "D" V 8005 1871 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 8050 1950 50  0001 C CNN
+F 3 "" H 8050 1950 50  0001 C CNN
+	1    8050 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8050 2100
+Wire Wire Line
+	8050 2100 9150 2100
+$Comp
+L #library:D D14
+U 1 1 5F81EF4E
+P 8050 2550
+F 0 "D14" V 8096 2471 50  0000 R CNN
+F 1 "D" V 8005 2471 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 8050 2550 50  0001 C CNN
+F 3 "" H 8050 2550 50  0001 C CNN
+	1    8050 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8050 2700
+Wire Wire Line
+	8050 2700 9150 2700
+$Comp
+L #library:D D26
+U 1 1 5F81F006
+P 8050 3150
+F 0 "D26" V 8096 3071 50  0000 R CNN
+F 1 "D" V 8005 3071 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 8050 3150 50  0001 C CNN
+F 3 "" H 8050 3150 50  0001 C CNN
+	1    8050 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8050 3300
+Wire Wire Line
+	8050 3300 9150 3300
+$Comp
+L #library:D D38
+U 1 1 5F81F0CE
+P 8050 3750
+F 0 "D38" V 8096 3671 50  0000 R CNN
+F 1 "D" V 8005 3671 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 8050 3750 50  0001 C CNN
+F 3 "" H 8050 3750 50  0001 C CNN
+	1    8050 3750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8050 3900
+Wire Wire Line
+	8050 3900 9150 3900
+$Comp
+L #library:D D50
+U 1 1 5F81F18A
+P 8050 4350
+F 0 "D50" V 8096 4271 50  0000 R CNN
+F 1 "D" V 8005 4271 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 8050 4350 50  0001 C CNN
+F 3 "" H 8050 4350 50  0001 C CNN
+	1    8050 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8050 4500
+Wire Wire Line
+	8050 4500 9150 4500
+$Comp
+L #library:D D3
+U 1 1 5F81F244
+P 9150 1950
+F 0 "D3" V 9196 1871 50  0000 R CNN
+F 1 "D" V 9105 1871 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 9150 1950 50  0001 C CNN
+F 3 "" H 9150 1950 50  0001 C CNN
+	1    9150 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9150 2100
+Wire Wire Line
+	9150 2100 10200 2100
+$Comp
+L #library:D D15
+U 1 1 5F81F340
+P 9150 2550
+F 0 "D15" V 9196 2471 50  0000 R CNN
+F 1 "D" V 9105 2471 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 9150 2550 50  0001 C CNN
+F 3 "" H 9150 2550 50  0001 C CNN
+	1    9150 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9150 2700
+Wire Wire Line
+	9150 2700 10200 2700
+$Comp
+L #library:D D27
+U 1 1 5F81F402
+P 9150 3150
+F 0 "D27" V 9196 3071 50  0000 R CNN
+F 1 "D" V 9105 3071 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 9150 3150 50  0001 C CNN
+F 3 "" H 9150 3150 50  0001 C CNN
+	1    9150 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9150 3300
+Wire Wire Line
+	9150 3300 10200 3300
+$Comp
+L #library:D D39
+U 1 1 5F81F4C6
+P 9150 3750
+F 0 "D39" V 9196 3671 50  0000 R CNN
+F 1 "D" V 9105 3671 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 9150 3750 50  0001 C CNN
+F 3 "" H 9150 3750 50  0001 C CNN
+	1    9150 3750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9150 3900
+Wire Wire Line
+	9150 3900 10200 3900
+$Comp
+L #library:D D51
+U 1 1 5F81F5A6
+P 9150 4350
+F 0 "D51" V 9196 4271 50  0000 R CNN
+F 1 "D" V 9105 4271 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 9150 4350 50  0001 C CNN
+F 3 "" H 9150 4350 50  0001 C CNN
+	1    9150 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9150 4500
+Wire Wire Line
+	9150 4500 10200 4500
+$Comp
+L #library:D D4
+U 1 1 5F81F66E
+P 10200 1950
+F 0 "D4" V 10246 1871 50  0000 R CNN
+F 1 "D" V 10155 1871 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 10200 1950 50  0001 C CNN
+F 3 "" H 10200 1950 50  0001 C CNN
+	1    10200 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10200 2100
+Wire Wire Line
+	10200 2100 11250 2100
+$Comp
+L #library:D D16
+U 1 1 5F81F774
+P 10200 2550
+F 0 "D16" V 10246 2471 50  0000 R CNN
+F 1 "D" V 10155 2471 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 10200 2550 50  0001 C CNN
+F 3 "" H 10200 2550 50  0001 C CNN
+	1    10200 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10200 2700
+Wire Wire Line
+	10200 2700 11250 2700
+$Comp
+L #library:D D28
+U 1 1 5F81F83A
+P 10200 3150
+F 0 "D28" V 10246 3071 50  0000 R CNN
+F 1 "D" V 10155 3071 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 10200 3150 50  0001 C CNN
+F 3 "" H 10200 3150 50  0001 C CNN
+	1    10200 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10200 3300
+Wire Wire Line
+	10200 3300 11250 3300
+$Comp
+L #library:D D40
+U 1 1 5F81F908
+P 10200 3750
+F 0 "D40" V 10246 3671 50  0000 R CNN
+F 1 "D" V 10155 3671 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 10200 3750 50  0001 C CNN
+F 3 "" H 10200 3750 50  0001 C CNN
+	1    10200 3750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10200 3900
+Wire Wire Line
+	10200 3900 11250 3900
+$Comp
+L #library:D D52
+U 1 1 5F81FB0B
+P 10200 4350
+F 0 "D52" V 10246 4271 50  0000 R CNN
+F 1 "D" V 10155 4271 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 10200 4350 50  0001 C CNN
+F 3 "" H 10200 4350 50  0001 C CNN
+	1    10200 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10200 4500
+Wire Wire Line
+	10200 4500 11250 4500
+$Comp
+L #library:D D5
+U 1 1 5F81FBD9
+P 11250 1950
+F 0 "D5" V 11296 1871 50  0000 R CNN
+F 1 "D" V 11205 1871 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 11250 1950 50  0001 C CNN
+F 3 "" H 11250 1950 50  0001 C CNN
+	1    11250 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11250 2100
+Wire Wire Line
+	11250 2100 12300 2100
+$Comp
+L #library:D D17
+U 1 1 5F81FCCF
+P 11250 2550
+F 0 "D17" V 11296 2471 50  0000 R CNN
+F 1 "D" V 11205 2471 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 11250 2550 50  0001 C CNN
+F 3 "" H 11250 2550 50  0001 C CNN
+	1    11250 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11250 2700
+Wire Wire Line
+	11250 2700 12300 2700
+$Comp
+L #library:D D29
+U 1 1 5F81FDA3
+P 11250 3150
+F 0 "D29" V 11296 3071 50  0000 R CNN
+F 1 "D" V 11205 3071 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 11250 3150 50  0001 C CNN
+F 3 "" H 11250 3150 50  0001 C CNN
+	1    11250 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11250 3300
+Wire Wire Line
+	11250 3300 12300 3300
+$Comp
+L #library:D D41
+U 1 1 5F81FE7B
+P 11250 3750
+F 0 "D41" V 11296 3671 50  0000 R CNN
+F 1 "D" V 11205 3671 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 11250 3750 50  0001 C CNN
+F 3 "" H 11250 3750 50  0001 C CNN
+	1    11250 3750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11250 3900
+Wire Wire Line
+	11250 3900 12300 3900
+$Comp
+L #library:D D53
+U 1 1 5F81FF55
+P 11250 4350
+F 0 "D53" V 11296 4271 50  0000 R CNN
+F 1 "D" V 11205 4271 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 11250 4350 50  0001 C CNN
+F 3 "" H 11250 4350 50  0001 C CNN
+	1    11250 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11250 4500
+Wire Wire Line
+	11250 4500 11750 4500
+$Comp
+L #library:D D6
+U 1 1 5F82002D
+P 12300 1950
+F 0 "D6" V 12346 1871 50  0000 R CNN
+F 1 "D" V 12255 1871 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 12300 1950 50  0001 C CNN
+F 3 "" H 12300 1950 50  0001 C CNN
+	1    12300 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12300 2100
+Wire Wire Line
+	12300 2100 13400 2100
+$Comp
+L #library:D D18
+U 1 1 5F820367
+P 12300 2550
+F 0 "D18" V 12346 2471 50  0000 R CNN
+F 1 "D" V 12255 2471 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 12300 2550 50  0001 C CNN
+F 3 "" H 12300 2550 50  0001 C CNN
+	1    12300 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12300 2700
+Wire Wire Line
+	12300 2700 13400 2700
+$Comp
+L #library:D D30
+U 1 1 5F82043D
+P 12300 3150
+F 0 "D30" V 12346 3071 50  0000 R CNN
+F 1 "D" V 12255 3071 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 12300 3150 50  0001 C CNN
+F 3 "" H 12300 3150 50  0001 C CNN
+	1    12300 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12300 3300
+Wire Wire Line
+	12300 3300 13400 3300
+$Comp
+L #library:D D42
+U 1 1 5F820511
+P 12300 3750
+F 0 "D42" V 12346 3671 50  0000 R CNN
+F 1 "D" V 12255 3671 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 12300 3750 50  0001 C CNN
+F 3 "" H 12300 3750 50  0001 C CNN
+	1    12300 3750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12300 3900
+Wire Wire Line
+	12300 3900 13400 3900
+$Comp
+L #library:D D54
+U 1 1 5F820652
+P 12300 4350
+F 0 "D54" V 12346 4271 50  0000 R CNN
+F 1 "D" V 12255 4271 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 12300 4350 50  0001 C CNN
+F 3 "" H 12300 4350 50  0001 C CNN
+	1    12300 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12300 4500
+Wire Wire Line
+	12300 4500 12800 4500
+$Comp
+L #library:D D7
+U 1 1 5F820734
+P 13400 1950
+F 0 "D7" V 13446 1871 50  0000 R CNN
+F 1 "D" V 13355 1871 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 13400 1950 50  0001 C CNN
+F 3 "" H 13400 1950 50  0001 C CNN
+	1    13400 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 13400 2100
+Wire Wire Line
+	13400 2100 14450 2100
+$Comp
+L #library:D D19
+U 1 1 5F820846
+P 13400 2550
+F 0 "D19" V 13446 2471 50  0000 R CNN
+F 1 "D" V 13355 2471 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 13400 2550 50  0001 C CNN
+F 3 "" H 13400 2550 50  0001 C CNN
+	1    13400 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 13400 2700
+Wire Wire Line
+	13400 2700 14450 2700
+$Comp
+L #library:D D31
+U 1 1 5F82092C
+P 13400 3150
+F 0 "D31" V 13446 3071 50  0000 R CNN
+F 1 "D" V 13355 3071 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 13400 3150 50  0001 C CNN
+F 3 "" H 13400 3150 50  0001 C CNN
+	1    13400 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 13400 3300
+Wire Wire Line
+	13400 3300 14450 3300
+$Comp
+L #library:D D43
+U 1 1 5F820A16
+P 13400 3750
+F 0 "D43" V 13446 3671 50  0000 R CNN
+F 1 "D" V 13355 3671 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 13400 3750 50  0001 C CNN
+F 3 "" H 13400 3750 50  0001 C CNN
+	1    13400 3750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 13400 3900
+Wire Wire Line
+	13400 3900 14450 3900
+$Comp
+L #library:D D55
+U 1 1 5F820B04
+P 13400 4350
+F 0 "D55" V 13446 4271 50  0000 R CNN
+F 1 "D" V 13355 4271 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 13400 4350 50  0001 C CNN
+F 3 "" H 13400 4350 50  0001 C CNN
+	1    13400 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 13400 4500
+Wire Wire Line
+	13400 4500 13900 4500
+$Comp
+L #library:D D8
+U 1 1 5F820BF0
+P 14450 1950
+F 0 "D8" V 14496 1871 50  0000 R CNN
+F 1 "D" V 14405 1871 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 14450 1950 50  0001 C CNN
+F 3 "" H 14450 1950 50  0001 C CNN
+	1    14450 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 14450 2100
+Wire Wire Line
+	14450 2100 15550 2100
+$Comp
+L #library:D D20
+U 1 1 5F820D00
+P 14450 2550
+F 0 "D20" V 14496 2471 50  0000 R CNN
+F 1 "D" V 14405 2471 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 14450 2550 50  0001 C CNN
+F 3 "" H 14450 2550 50  0001 C CNN
+	1    14450 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 14450 2700
+Wire Wire Line
+	14450 2700 15550 2700
+$Comp
+L #library:D D32
+U 1 1 5F820DF2
+P 14450 3150
+F 0 "D32" V 14496 3071 50  0000 R CNN
+F 1 "D" V 14405 3071 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 14450 3150 50  0001 C CNN
+F 3 "" H 14450 3150 50  0001 C CNN
+	1    14450 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 14450 3300
+Wire Wire Line
+	14450 3300 15550 3300
+$Comp
+L #library:D D44
+U 1 1 5F820EE4
+P 14450 3750
+F 0 "D44" V 14496 3671 50  0000 R CNN
+F 1 "D" V 14405 3671 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 14450 3750 50  0001 C CNN
+F 3 "" H 14450 3750 50  0001 C CNN
+	1    14450 3750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 14450 3900
+Wire Wire Line
+	14450 3900 15550 3900
+$Comp
+L #library:D D56
+U 1 1 5F820FE4
+P 14450 4350
+F 0 "D56" V 14496 4271 50  0000 R CNN
+F 1 "D" V 14405 4271 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 14450 4350 50  0001 C CNN
+F 3 "" H 14450 4350 50  0001 C CNN
+	1    14450 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 14450 4500
+Wire Wire Line
+	14450 4500 15550 4500
+$Comp
+L #library:D D9
+U 1 1 5F8210D8
+P 15550 1950
+F 0 "D9" V 15596 1871 50  0000 R CNN
+F 1 "D" V 15505 1871 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 15550 1950 50  0001 C CNN
+F 3 "" H 15550 1950 50  0001 C CNN
+	1    15550 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 15550 2100
+Wire Wire Line
+	15550 2100 16600 2100
+$Comp
+L #library:D D21
+U 1 1 5F821204
+P 15550 2550
+F 0 "D21" V 15596 2471 50  0000 R CNN
+F 1 "D" V 15505 2471 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 15550 2550 50  0001 C CNN
+F 3 "" H 15550 2550 50  0001 C CNN
+	1    15550 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 15550 2700
+Wire Wire Line
+	15550 2700 16600 2700
+$Comp
+L #library:D D33
+U 1 1 5F821302
+P 15550 3150
+F 0 "D33" V 15596 3071 50  0000 R CNN
+F 1 "D" V 15505 3071 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 15550 3150 50  0001 C CNN
+F 3 "" H 15550 3150 50  0001 C CNN
+	1    15550 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 15550 3300
+Wire Wire Line
+	15550 3300 16600 3300
+$Comp
+L #library:D D45
+U 1 1 5F821400
+P 15550 3750
+F 0 "D45" V 15596 3671 50  0000 R CNN
+F 1 "D" V 15505 3671 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 15550 3750 50  0001 C CNN
+F 3 "" H 15550 3750 50  0001 C CNN
+	1    15550 3750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 15550 3900
+Wire Wire Line
+	15550 3900 16600 3900
+$Comp
+L #library:D D57
+U 1 1 5F8214FA
+P 15550 4350
+F 0 "D57" V 15596 4271 50  0000 R CNN
+F 1 "D" V 15505 4271 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 15550 4350 50  0001 C CNN
+F 3 "" H 15550 4350 50  0001 C CNN
+	1    15550 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 15550 4500
+Wire Wire Line
+	15550 4500 16600 4500
+$Comp
+L #library:D D10
+U 1 1 5F821665
+P 16600 1950
+F 0 "D10" V 16646 1871 50  0000 R CNN
+F 1 "D" V 16555 1871 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 16600 1950 50  0001 C CNN
+F 3 "" H 16600 1950 50  0001 C CNN
+	1    16600 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 16600 2100
+Wire Wire Line
+	16600 2100 17650 2100
+$Comp
+L #library:D D22
+U 1 1 5F82189C
+P 16600 2550
+F 0 "D22" V 16646 2471 50  0000 R CNN
+F 1 "D" V 16555 2471 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 16600 2550 50  0001 C CNN
+F 3 "" H 16600 2550 50  0001 C CNN
+	1    16600 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 16600 2700
+Wire Wire Line
+	16600 2700 17650 2700
+$Comp
+L #library:D D34
+U 1 1 5F821998
+P 16600 3150
+F 0 "D34" V 16646 3071 50  0000 R CNN
+F 1 "D" V 16555 3071 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 16600 3150 50  0001 C CNN
+F 3 "" H 16600 3150 50  0001 C CNN
+	1    16600 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 16600 3300
+Wire Wire Line
+	16600 3300 17650 3300
+$Comp
+L #library:D D46
+U 1 1 5F821B10
+P 16600 3750
+F 0 "D46" V 16646 3671 50  0000 R CNN
+F 1 "D" V 16555 3671 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 16600 3750 50  0001 C CNN
+F 3 "" H 16600 3750 50  0001 C CNN
+	1    16600 3750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 16600 3900
+Wire Wire Line
+	16600 3900 17650 3900
+$Comp
+L #library:D D58
+U 1 1 5F821C1A
+P 16600 4350
+F 0 "D58" V 16646 4271 50  0000 R CNN
+F 1 "D" V 16555 4271 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 16600 4350 50  0001 C CNN
+F 3 "" H 16600 4350 50  0001 C CNN
+	1    16600 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 16600 4500
+Wire Wire Line
+	16600 4500 17650 4500
+$Comp
+L #library:D D11
+U 1 1 5F821D26
+P 17650 1950
+F 0 "D11" V 17696 1871 50  0000 R CNN
+F 1 "D" V 17605 1871 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 17650 1950 50  0001 C CNN
+F 3 "" H 17650 1950 50  0001 C CNN
+	1    17650 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17650 2100
+Wire Wire Line
+	17650 2100 18700 2100
+$Comp
+L #library:D D23
+U 1 1 5F821E4A
+P 17650 2550
+F 0 "D23" V 17696 2471 50  0000 R CNN
+F 1 "D" V 17605 2471 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 17650 2550 50  0001 C CNN
+F 3 "" H 17650 2550 50  0001 C CNN
+	1    17650 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17650 2700
+Wire Wire Line
+	17650 2700 18700 2700
+$Comp
+L #library:D D35
+U 1 1 5F821F5C
+P 17650 3150
+F 0 "D35" V 17696 3071 50  0000 R CNN
+F 1 "D" V 17605 3071 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 17650 3150 50  0001 C CNN
+F 3 "" H 17650 3150 50  0001 C CNN
+	1    17650 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17650 3300
+Wire Wire Line
+	17650 3300 18700 3300
+$Comp
+L #library:D D47
+U 1 1 5F822072
+P 17650 3750
+F 0 "D47" V 17696 3671 50  0000 R CNN
+F 1 "D" V 17605 3671 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 17650 3750 50  0001 C CNN
+F 3 "" H 17650 3750 50  0001 C CNN
+	1    17650 3750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17650 3900
+Wire Wire Line
+	17650 3900 18700 3900
+$Comp
+L #library:D D59
+U 1 1 5F822184
+P 17650 4350
+F 0 "D59" V 17696 4271 50  0000 R CNN
+F 1 "D" V 17605 4271 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 17650 4350 50  0001 C CNN
+F 3 "" H 17650 4350 50  0001 C CNN
+	1    17650 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17650 4500
+Wire Wire Line
+	17650 4500 18700 4500
+$Comp
+L #library:D D12
+U 1 1 5F82229C
+P 18700 1950
+F 0 "D12" V 18746 1871 50  0000 R CNN
+F 1 "D" V 18655 1871 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 18700 1950 50  0001 C CNN
+F 3 "" H 18700 1950 50  0001 C CNN
+	1    18700 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L #library:D D24
+U 1 1 5F8223BC
+P 18700 2550
+F 0 "D24" V 18746 2471 50  0000 R CNN
+F 1 "D" V 18655 2471 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 18700 2550 50  0001 C CNN
+F 3 "" H 18700 2550 50  0001 C CNN
+	1    18700 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L #library:D D36
+U 1 1 5F8224D2
+P 18700 3150
+F 0 "D36" V 18746 3071 50  0000 R CNN
+F 1 "D" V 18655 3071 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 18700 3150 50  0001 C CNN
+F 3 "" H 18700 3150 50  0001 C CNN
+	1    18700 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L #library:D D48
+U 1 1 5F8225EE
+P 18700 3750
+F 0 "D48" V 18746 3671 50  0000 R CNN
+F 1 "D" V 18655 3671 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 18700 3750 50  0001 C CNN
+F 3 "" H 18700 3750 50  0001 C CNN
+	1    18700 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L #library:D D60
+U 1 1 5F82270A
+P 18700 4350
+F 0 "D60" V 18746 4271 50  0000 R CNN
+F 1 "D" V 18655 4271 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 18700 4350 50  0001 C CNN
+F 3 "" H 18700 4350 50  0001 C CNN
+	1    18700 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10850 3600 10850 4000
+Wire Wire Line
+	10850 4000 10850 4200
+Connection ~ 10850 4000
+Wire Wire Line
+	11350 4000 10850 4000
+Wire Wire Line
+	11350 4200 11350 4000
+$Comp
+L #library:SW_Push SW61
+U 1 1 5F82303E
+P 11550 4200
+F 0 "SW61" H 11550 4485 50  0000 C CNN
+F 1 "SW_Push" H 11550 4394 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 11550 4400 50  0001 C CNN
+F 3 "" H 11550 4400 50  0001 C CNN
+	1    11550 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L #library:SW_Push SW62
+U 1 1 5F8231D3
+P 13700 4200
+F 0 "SW62" H 13700 4485 50  0000 C CNN
+F 1 "SW_Push" H 13700 4394 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 13700 4400 50  0001 C CNN
+F 3 "" H 13700 4400 50  0001 C CNN
+	1    13700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L #library:D D61
+U 1 1 5F823305
+P 11750 4350
+F 0 "D61" V 11796 4271 50  0000 R CNN
+F 1 "D" V 11705 4271 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 11750 4350 50  0001 C CNN
+F 3 "" H 11750 4350 50  0001 C CNN
+	1    11750 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11750 4500
+Wire Wire Line
+	11750 4500 12300 4500
+$Comp
+L #library:D D62
+U 1 1 5F82342D
+P 13900 4350
+F 0 "D62" V 13946 4271 50  0000 R CNN
+F 1 "D" V 13855 4271 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 13900 4350 50  0001 C CNN
+F 3 "" H 13900 4350 50  0001 C CNN
+	1    13900 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 13900 4500
+Wire Wire Line
+	13900 4500 14450 4500
+Text GLabel 2850 2100 2    50   Input ~ 0
+X5
+Text GLabel 2850 2300 2    50   Input ~ 0
+X7
+Text GLabel 2850 2400 2    50   Input ~ 0
+X8
+Text GLabel 2850 2500 2    50   Input ~ 0
+X9
+Text GLabel 2850 2600 2    50   Input ~ 0
+X10
+Text GLabel 2850 2800 2    50   Input ~ 0
+X12
+Text GLabel 2850 2700 2    50   Input ~ 0
+X11
+Text GLabel 2850 2200 2    50   Input ~ 0
+X6
+Text GLabel 1450 1700 0    50   Input ~ 0
+led
+Text GLabel 1450 1900 0    50   Input ~ 0
+GND
+Text GLabel 1450 2000 0    50   Input ~ 0
+GND
+Text GLabel 1450 1800 0    50   Input ~ 0
+Y1
+Text GLabel 1450 2100 0    50   Input ~ 0
+Y2
+Text GLabel 1450 2400 0    50   Input ~ 0
+Y5
+Text GLabel 1450 2500 0    50   Input ~ 0
+X1
+Text GLabel 1450 2700 0    50   Input ~ 0
+X3
+Text GLabel 1450 2800 0    50   Input ~ 0
+X4
+Text GLabel 1450 2200 0    50   Input ~ 0
+Y3
+Text GLabel 1450 2300 0    50   Input ~ 0
+Y4
+Text GLabel 1450 2600 0    50   Input ~ 0
+X2
+$Comp
+L #library:SW_Push SW63
+U 1 1 5F845E1C
+P 12600 4200
+F 0 "SW63" H 12600 4485 50  0000 C CNN
+F 1 "SW_Push" H 12600 4394 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 12600 4400 50  0001 C CNN
+F 3 "" H 12600 4400 50  0001 C CNN
+	1    12600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L #library:D D63
+U 1 1 5F845F3C
+P 12800 4350
+F 0 "D63" V 12846 4271 50  0000 R CNN
+F 1 "D" V 12755 4271 50  0000 R CNN
+F 2 "#footprint:diode_SMD" H 12800 4350 50  0001 C CNN
+F 3 "" H 12800 4350 50  0001 C CNN
+	1    12800 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12800 4500
+Wire Wire Line
+	12800 4500 13400 4500
+Wire Wire Line
+	12400 4200 12400 4000
+Wire Wire Line
+	12400 4000 11900 4000
+Connection ~ 11900 4000
+Wire Wire Line
+	11900 4000 11900 4200
+$EndSCHEMATC
