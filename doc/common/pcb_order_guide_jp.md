@@ -27,6 +27,7 @@
 
 | 概要 | URL                                                          |
 | ---- | ------------------------------------------------------------ |
-| ミドルアクリルプレート | https://github.com/e3w2q/ukiha-keyboard/blob/master/pcb/ukiha-middle.zip?raw=true |
+| ミドルアクリルプレート(60キー用) | https://github.com/e3w2q/ukiha-keyboard/blob/master/pcb/ukiha-middle-5x12.zip?raw=true |
+| ミドルアクリルプレート(48キー用) | https://github.com/e3w2q/ukiha-keyboard/blob/master/pcb/ukiha-middle-4x12.zip?raw=true |
 
 サイズは10×15cm、厚みは2.5mmとしてください。

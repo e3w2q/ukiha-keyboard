@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 46)
+    (drawings 52)
     (tracks 0)
     (zones 0)
     (modules 12)
@@ -65,7 +65,7 @@
     (pad_drill 1.2)
     (pad_to_mask_clearance 0.2)
     (solder_mask_min_width 0.25)
-    (aux_axis_origin 37.70322 52.784508)
+    (aux_axis_origin 27.102501 36.80625)
     (grid_origin 27.102501 36.80625)
     (visible_elements 7FFFFFEF)
     (pcbplotparams
@@ -90,7 +90,7 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk true)
-      (outputformat 1)
+      (outputformat 5)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
@@ -294,6 +294,16 @@
     (fp_circle (center 0 0) (end 1.07 0) (layer Edge.Cuts) (width 0.15))
   )
 
+  (gr_text 112mm (at 17.102501 90.30625) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_line (start 22.102501 36.80625) (end 21.102501 37.80625) (layer F.SilkS) (width 0.15))
+  (gr_line (start 22.102501 148.80625) (end 21.102501 147.80625) (layer F.SilkS) (width 0.15))
+  (gr_text 100mm (at 73.602501 29.80625) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_line (start 127.102501 31.80625) (end 126.102501 30.80625) (layer F.SilkS) (width 0.15))
+  (gr_line (start 27.102501 31.80625) (end 28.102501 30.80625) (layer F.SilkS) (width 0.15))
   (gr_line (start 110.102501 72.80625) (end 110.102501 42.80625) (layer Edge.Cuts) (width 0.15) (tstamp 5F874004))
   (gr_line (start 98.102501 76.80625) (end 98.102501 72.80625) (layer Edge.Cuts) (width 0.15) (tstamp 5F874003))
   (gr_line (start 98.102501 72.80625) (end 110.102501 72.80625) (layer Edge.Cuts) (width 0.15) (tstamp 5F874002))
@@ -338,7 +348,7 @@
   (gr_line (start 93.102501 99.30625) (end 93.102501 41.80625) (layer Edge.Cuts) (width 0.15) (tstamp 5F873A71))
   (gr_line (start 97.102501 99.30625) (end 93.102501 99.30625) (layer Edge.Cuts) (width 0.15) (tstamp 5F873A70))
   (gr_arc (start 29.102501 38.80625) (end 29.102501 36.80625) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5F873A6F))
-  (gr_line (start 22.102501 36.80625) (end 22.102501 136.80625) (layer F.SilkS) (width 0.15))
+  (gr_line (start 22.102501 36.80625) (end 22.102501 148.80625) (layer F.SilkS) (width 0.15))
   (gr_line (start 27.102501 31.80625) (end 127.102501 31.80625) (layer F.SilkS) (width 0.15))
 
 )

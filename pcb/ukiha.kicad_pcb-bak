@@ -11,8 +11,8 @@
 
   (page A4)
   (title_block
-    (title "te96 Sukeroku Keyboard")
-    (rev 5)
+    (title "Ukiha Keyboard")
+    (rev 2)
     (company @e3w2q)
   )
 
@@ -4907,8 +4907,8 @@
       (xy -1.035539 3.419231)) (layer B.Cu) (width 0.01))
   )
 
-  (gr_text "Ukiha by @e3w2q" (at 52.602501 121.80625) (layer B.Cu)
-    (effects (font (size 2.5 2.5) (thickness 0.4)) (justify mirror))
+  (gr_text "Ukiha by @e3w2q" (at 45.602501 122.80625) (layer B.Cu)
+    (effects (font (size 1.5 1.5) (thickness 0.25)) (justify mirror))
   )
   (gr_line (start 29.102501 52.80625) (end 31.102501 52.80625) (layer B.SilkS) (width 0.15))
   (gr_arc (start 29.102501 54.80625) (end 29.102501 52.80625) (angle -90) (layer B.SilkS) (width 0.15))

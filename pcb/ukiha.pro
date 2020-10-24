@@ -1,4 +1,4 @@
-update=2020/07/31 23:47:44
+update=2020/10/24 8:17:08
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,7 +31,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=../te96-doc/
+PlotDirectoryName=../ukiha-doc/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
