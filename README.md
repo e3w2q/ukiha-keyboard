@@ -11,7 +11,7 @@ The Ukiha is a 5×12 ortholinear keyboard like the Preonic and JJ50, but with a 
 
 I like expantable keyboard boards like [SU120](https://github.com/e3w2q/su120-keyboard) and [te96](https://github.com/e3w2q/te96-keyboard), but in this case I designed a keyboard that I genuinely wanted.
 
-The "Ukiha"(浮葉) is a quote from the Japanese classic, *Pillow Book* (枕草子).
+The *Ukiha* (浮葉) means "floating leaf" and is taken from the Japanese classic, *Pillow Book* (枕草子).
 
 In the book, there is an example of a very small floating lotus leaf taken from a pond as a lovely thing.
 
