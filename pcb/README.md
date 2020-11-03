@@ -6,4 +6,8 @@
 
 ## PCB Layout
 ![PCB Layout](../doc/pcblayout.png?raw=true)
+![PCB Layout](../doc/pcblayout2.png?raw=true)
+
+## Acrylic Layout
+![Acrylic Layout](../doc/acryliclayout.png?raw=true)
 

@@ -187,8 +187,6 @@ X11
 Text GLabel 10550 2900 1    39   Input ~ 0
 X12
 Wire Wire Line
-	6800 5650 6800 5450
-Wire Wire Line
 	6800 5450 6300 5450
 Connection ~ 6300 5450
 Wire Wire Line
@@ -203,7 +201,7 @@ U 1 1 5F8174DF
 P 1300 3250
 F 0 "SW1" H 1300 3535 50  0000 C CNN
 F 1 "SW_Push" H 1300 3444 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 1300 3450 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 1300 3450 50  0001 C CNN
 F 3 "" H 1300 3450 50  0001 C CNN
 	1    1300 3250
 	1    0    0    -1  
@@ -217,7 +215,7 @@ U 1 1 5F81768E
 P 1300 3850
 F 0 "SW13" H 1300 4135 50  0000 C CNN
 F 1 "SW_Push" H 1300 4044 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 1300 4050 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 1300 4050 50  0001 C CNN
 F 3 "" H 1300 4050 50  0001 C CNN
 	1    1300 3850
 	1    0    0    -1  
@@ -228,7 +226,7 @@ U 1 1 5F817720
 P 1300 4450
 F 0 "SW25" H 1300 4735 50  0000 C CNN
 F 1 "SW_Push" H 1300 4644 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 1300 4650 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 1300 4650 50  0001 C CNN
 F 3 "" H 1300 4650 50  0001 C CNN
 	1    1300 4450
 	1    0    0    -1  
@@ -245,7 +243,7 @@ U 1 1 5F8178BB
 P 1300 5050
 F 0 "SW37" H 1300 5335 50  0000 C CNN
 F 1 "SW_Push" H 1300 5244 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 1300 5250 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 1300 5250 50  0001 C CNN
 F 3 "" H 1300 5250 50  0001 C CNN
 	1    1300 5050
 	1    0    0    -1  
@@ -259,7 +257,7 @@ U 1 1 5F817957
 P 1300 5650
 F 0 "SW49" H 1300 5935 50  0000 C CNN
 F 1 "SW_Push" H 1300 5844 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 1300 5850 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 1300 5850 50  0001 C CNN
 F 3 "" H 1300 5850 50  0001 C CNN
 	1    1300 5650
 	1    0    0    -1  
@@ -270,7 +268,7 @@ U 1 1 5F8179F7
 P 2050 3250
 F 0 "SW2" H 2050 3535 50  0000 C CNN
 F 1 "SW_Push" H 2050 3444 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 2050 3450 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 2050 3450 50  0001 C CNN
 F 3 "" H 2050 3450 50  0001 C CNN
 	1    2050 3250
 	1    0    0    -1  
@@ -284,7 +282,7 @@ U 1 1 5F817AA9
 P 2050 3850
 F 0 "SW14" H 2050 4135 50  0000 C CNN
 F 1 "SW_Push" H 2050 4044 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 2050 4050 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 2050 4050 50  0001 C CNN
 F 3 "" H 2050 4050 50  0001 C CNN
 	1    2050 3850
 	1    0    0    -1  
@@ -298,7 +296,7 @@ U 1 1 5F817B53
 P 2050 4450
 F 0 "SW26" H 2050 4735 50  0000 C CNN
 F 1 "SW_Push" H 2050 4644 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 2050 4650 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 2050 4650 50  0001 C CNN
 F 3 "" H 2050 4650 50  0001 C CNN
 	1    2050 4450
 	1    0    0    -1  
@@ -312,7 +310,7 @@ U 1 1 5F817BED
 P 2050 5050
 F 0 "SW38" H 2050 5335 50  0000 C CNN
 F 1 "SW_Push" H 2050 5244 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 2050 5250 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 2050 5250 50  0001 C CNN
 F 3 "" H 2050 5250 50  0001 C CNN
 	1    2050 5050
 	1    0    0    -1  
@@ -326,7 +324,7 @@ U 1 1 5F817C97
 P 2050 5650
 F 0 "SW50" H 2050 5935 50  0000 C CNN
 F 1 "SW_Push" H 2050 5844 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 2050 5850 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 2050 5850 50  0001 C CNN
 F 3 "" H 2050 5850 50  0001 C CNN
 	1    2050 5650
 	1    0    0    -1  
@@ -367,7 +365,7 @@ U 1 1 5F81C4B8
 P 2800 3250
 F 0 "SW3" H 2800 3535 50  0000 C CNN
 F 1 "SW_Push" H 2800 3444 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 2800 3450 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 2800 3450 50  0001 C CNN
 F 3 "" H 2800 3450 50  0001 C CNN
 	1    2800 3250
 	1    0    0    -1  
@@ -379,7 +377,7 @@ U 1 1 5F81C51A
 P 2800 3850
 F 0 "SW15" H 2800 4135 50  0000 C CNN
 F 1 "SW_Push" H 2800 4044 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 2800 4050 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 2800 4050 50  0001 C CNN
 F 3 "" H 2800 4050 50  0001 C CNN
 	1    2800 3850
 	1    0    0    -1  
@@ -391,7 +389,7 @@ U 1 1 5F81C564
 P 2800 4450
 F 0 "SW27" H 2800 4735 50  0000 C CNN
 F 1 "SW_Push" H 2800 4644 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 2800 4650 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 2800 4650 50  0001 C CNN
 F 3 "" H 2800 4650 50  0001 C CNN
 	1    2800 4450
 	1    0    0    -1  
@@ -403,7 +401,7 @@ U 1 1 5F81C5AE
 P 2800 5050
 F 0 "SW39" H 2800 5335 50  0000 C CNN
 F 1 "SW_Push" H 2800 5244 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 2800 5250 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 2800 5250 50  0001 C CNN
 F 3 "" H 2800 5250 50  0001 C CNN
 	1    2800 5050
 	1    0    0    -1  
@@ -415,7 +413,7 @@ U 1 1 5F81C5F8
 P 2800 5650
 F 0 "SW51" H 2800 5935 50  0000 C CNN
 F 1 "SW_Push" H 2800 5844 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 2800 5850 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 2800 5850 50  0001 C CNN
 F 3 "" H 2800 5850 50  0001 C CNN
 	1    2800 5650
 	1    0    0    -1  
@@ -426,7 +424,7 @@ U 1 1 5F81C6C5
 P 3550 3250
 F 0 "SW4" H 3550 3535 50  0000 C CNN
 F 1 "SW_Push" H 3550 3444 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 3550 3450 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 3550 3450 50  0001 C CNN
 F 3 "" H 3550 3450 50  0001 C CNN
 	1    3550 3250
 	1    0    0    -1  
@@ -440,7 +438,7 @@ U 1 1 5F81C777
 P 3550 3850
 F 0 "SW16" H 3550 4135 50  0000 C CNN
 F 1 "SW_Push" H 3550 4044 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 3550 4050 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 3550 4050 50  0001 C CNN
 F 3 "" H 3550 4050 50  0001 C CNN
 	1    3550 3850
 	1    0    0    -1  
@@ -454,7 +452,7 @@ U 1 1 5F81C7C9
 P 3550 4450
 F 0 "SW28" H 3550 4735 50  0000 C CNN
 F 1 "SW_Push" H 3550 4644 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 3550 4650 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 3550 4650 50  0001 C CNN
 F 3 "" H 3550 4650 50  0001 C CNN
 	1    3550 4450
 	1    0    0    -1  
@@ -468,7 +466,7 @@ U 1 1 5F81C871
 P 3550 5050
 F 0 "SW40" H 3550 5335 50  0000 C CNN
 F 1 "SW_Push" H 3550 5244 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 3550 5250 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 3550 5250 50  0001 C CNN
 F 3 "" H 3550 5250 50  0001 C CNN
 	1    3550 5050
 	1    0    0    -1  
@@ -482,7 +480,7 @@ U 1 1 5F81C8C5
 P 3550 5650
 F 0 "SW52" H 3550 5935 50  0000 C CNN
 F 1 "SW_Push" H 3550 5844 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 3550 5850 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 3550 5850 50  0001 C CNN
 F 3 "" H 3550 5850 50  0001 C CNN
 	1    3550 5650
 	1    0    0    -1  
@@ -493,7 +491,7 @@ U 1 1 5F81C919
 P 4350 5650
 F 0 "SW53" H 4350 5935 50  0000 C CNN
 F 1 "SW_Push" H 4350 5844 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 4350 5850 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 4350 5850 50  0001 C CNN
 F 3 "" H 4350 5850 50  0001 C CNN
 	1    4350 5650
 	1    0    0    -1  
@@ -504,7 +502,7 @@ U 1 1 5F81CA28
 P 4350 5050
 F 0 "SW41" H 4350 5335 50  0000 C CNN
 F 1 "SW_Push" H 4350 5244 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 4350 5250 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 4350 5250 50  0001 C CNN
 F 3 "" H 4350 5250 50  0001 C CNN
 	1    4350 5050
 	1    0    0    -1  
@@ -516,7 +514,7 @@ U 1 1 5F81CAEE
 P 4350 4450
 F 0 "SW29" H 4350 4735 50  0000 C CNN
 F 1 "SW_Push" H 4350 4644 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 4350 4650 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 4350 4650 50  0001 C CNN
 F 3 "" H 4350 4650 50  0001 C CNN
 	1    4350 4450
 	1    0    0    -1  
@@ -528,7 +526,7 @@ U 1 1 5F81CB84
 P 4350 3850
 F 0 "SW17" H 4350 4135 50  0000 C CNN
 F 1 "SW_Push" H 4350 4044 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 4350 4050 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 4350 4050 50  0001 C CNN
 F 3 "" H 4350 4050 50  0001 C CNN
 	1    4350 3850
 	1    0    0    -1  
@@ -540,7 +538,7 @@ U 1 1 5F81CBDE
 P 4350 3250
 F 0 "SW5" H 4350 3535 50  0000 C CNN
 F 1 "SW_Push" H 4350 3444 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 4350 3450 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 4350 3450 50  0001 C CNN
 F 3 "" H 4350 3450 50  0001 C CNN
 	1    4350 3250
 	1    0    0    -1  
@@ -552,7 +550,7 @@ U 1 1 5F81CC44
 P 5400 3250
 F 0 "SW6" H 5400 3535 50  0000 C CNN
 F 1 "SW_Push" H 5400 3444 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 5400 3450 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 5400 3450 50  0001 C CNN
 F 3 "" H 5400 3450 50  0001 C CNN
 	1    5400 3250
 	1    0    0    -1  
@@ -566,7 +564,7 @@ U 1 1 5F81CCA8
 P 5400 3850
 F 0 "SW18" H 5400 4135 50  0000 C CNN
 F 1 "SW_Push" H 5400 4044 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 5400 4050 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 5400 4050 50  0001 C CNN
 F 3 "" H 5400 4050 50  0001 C CNN
 	1    5400 3850
 	1    0    0    -1  
@@ -580,7 +578,7 @@ U 1 1 5F81CD10
 P 5400 4450
 F 0 "SW30" H 5400 4735 50  0000 C CNN
 F 1 "SW_Push" H 5400 4644 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 5400 4650 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 5400 4650 50  0001 C CNN
 F 3 "" H 5400 4650 50  0001 C CNN
 	1    5400 4450
 	1    0    0    -1  
@@ -594,7 +592,7 @@ U 1 1 5F81CD72
 P 5400 5050
 F 0 "SW42" H 5400 5335 50  0000 C CNN
 F 1 "SW_Push" H 5400 5244 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 5400 5250 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 5400 5250 50  0001 C CNN
 F 3 "" H 5400 5250 50  0001 C CNN
 	1    5400 5050
 	1    0    0    -1  
@@ -608,7 +606,7 @@ U 1 1 5F81CDD4
 P 5400 5650
 F 0 "SW54" H 5400 5935 50  0000 C CNN
 F 1 "SW_Push" H 5400 5844 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 5400 5850 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 5400 5850 50  0001 C CNN
 F 3 "" H 5400 5850 50  0001 C CNN
 	1    5400 5650
 	1    0    0    -1  
@@ -619,7 +617,7 @@ U 1 1 5F81CE3C
 P 6500 3250
 F 0 "SW7" H 6500 3535 50  0000 C CNN
 F 1 "SW_Push" H 6500 3444 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 6500 3450 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 6500 3450 50  0001 C CNN
 F 3 "" H 6500 3450 50  0001 C CNN
 	1    6500 3250
 	1    0    0    -1  
@@ -633,7 +631,7 @@ U 1 1 5F81CEFC
 P 6500 3850
 F 0 "SW19" H 6500 4135 50  0000 C CNN
 F 1 "SW_Push" H 6500 4044 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 6500 4050 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 6500 4050 50  0001 C CNN
 F 3 "" H 6500 4050 50  0001 C CNN
 	1    6500 3850
 	1    0    0    -1  
@@ -647,7 +645,7 @@ U 1 1 5F81CF5E
 P 6500 4450
 F 0 "SW31" H 6500 4735 50  0000 C CNN
 F 1 "SW_Push" H 6500 4644 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 6500 4650 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 6500 4650 50  0001 C CNN
 F 3 "" H 6500 4650 50  0001 C CNN
 	1    6500 4450
 	1    0    0    -1  
@@ -661,7 +659,7 @@ U 1 1 5F81CFCA
 P 6500 5050
 F 0 "SW43" H 6500 5335 50  0000 C CNN
 F 1 "SW_Push" H 6500 5244 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 6500 5250 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 6500 5250 50  0001 C CNN
 F 3 "" H 6500 5250 50  0001 C CNN
 	1    6500 5050
 	1    0    0    -1  
@@ -675,7 +673,7 @@ U 1 1 5F81D036
 P 6500 5650
 F 0 "SW55" H 6500 5935 50  0000 C CNN
 F 1 "SW_Push" H 6500 5844 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 6500 5850 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 6500 5850 50  0001 C CNN
 F 3 "" H 6500 5850 50  0001 C CNN
 	1    6500 5650
 	1    0    0    -1  
@@ -686,7 +684,7 @@ U 1 1 5F81D0AC
 P 7550 3250
 F 0 "SW8" H 7550 3535 50  0000 C CNN
 F 1 "SW_Push" H 7550 3444 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 7550 3450 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 7550 3450 50  0001 C CNN
 F 3 "" H 7550 3450 50  0001 C CNN
 	1    7550 3250
 	1    0    0    -1  
@@ -698,7 +696,7 @@ U 1 1 5F81D132
 P 7550 3850
 F 0 "SW20" H 7550 4135 50  0000 C CNN
 F 1 "SW_Push" H 7550 4044 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 7550 4050 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 7550 4050 50  0001 C CNN
 F 3 "" H 7550 4050 50  0001 C CNN
 	1    7550 3850
 	1    0    0    -1  
@@ -710,7 +708,7 @@ U 1 1 5F81D1A6
 P 7550 4450
 F 0 "SW32" H 7550 4735 50  0000 C CNN
 F 1 "SW_Push" H 7550 4644 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 7550 4650 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 7550 4650 50  0001 C CNN
 F 3 "" H 7550 4650 50  0001 C CNN
 	1    7550 4450
 	1    0    0    -1  
@@ -722,7 +720,7 @@ U 1 1 5F81D216
 P 7550 5050
 F 0 "SW44" H 7550 5335 50  0000 C CNN
 F 1 "SW_Push" H 7550 5244 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 7550 5250 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 7550 5250 50  0001 C CNN
 F 3 "" H 7550 5250 50  0001 C CNN
 	1    7550 5050
 	1    0    0    -1  
@@ -734,7 +732,7 @@ U 1 1 5F81D292
 P 7550 5650
 F 0 "SW56" H 7550 5935 50  0000 C CNN
 F 1 "SW_Push" H 7550 5844 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 7550 5850 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 7550 5850 50  0001 C CNN
 F 3 "" H 7550 5850 50  0001 C CNN
 	1    7550 5650
 	1    0    0    -1  
@@ -745,7 +743,7 @@ U 1 1 5F81D364
 P 8350 3250
 F 0 "SW9" H 8350 3535 50  0000 C CNN
 F 1 "SW_Push" H 8350 3444 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 8350 3450 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 8350 3450 50  0001 C CNN
 F 3 "" H 8350 3450 50  0001 C CNN
 	1    8350 3250
 	1    0    0    -1  
@@ -759,7 +757,7 @@ U 1 1 5F81D769
 P 8350 3850
 F 0 "SW21" H 8350 4135 50  0000 C CNN
 F 1 "SW_Push" H 8350 4044 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 8350 4050 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 8350 4050 50  0001 C CNN
 F 3 "" H 8350 4050 50  0001 C CNN
 	1    8350 3850
 	1    0    0    -1  
@@ -773,7 +771,7 @@ U 1 1 5F81D811
 P 8350 4450
 F 0 "SW33" H 8350 4735 50  0000 C CNN
 F 1 "SW_Push" H 8350 4644 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 8350 4650 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 8350 4650 50  0001 C CNN
 F 3 "" H 8350 4650 50  0001 C CNN
 	1    8350 4450
 	1    0    0    -1  
@@ -787,7 +785,7 @@ U 1 1 5F81D891
 P 8350 5050
 F 0 "SW45" H 8350 5335 50  0000 C CNN
 F 1 "SW_Push" H 8350 5244 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 8350 5250 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 8350 5250 50  0001 C CNN
 F 3 "" H 8350 5250 50  0001 C CNN
 	1    8350 5050
 	1    0    0    -1  
@@ -801,7 +799,7 @@ U 1 1 5F81D925
 P 8350 5650
 F 0 "SW57" H 8350 5935 50  0000 C CNN
 F 1 "SW_Push" H 8350 5844 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 8350 5850 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 8350 5850 50  0001 C CNN
 F 3 "" H 8350 5850 50  0001 C CNN
 	1    8350 5650
 	1    0    0    -1  
@@ -812,7 +810,7 @@ U 1 1 5F81D99F
 P 9150 3250
 F 0 "SW10" H 9150 3535 50  0000 C CNN
 F 1 "SW_Push" H 9150 3444 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 9150 3450 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 9150 3450 50  0001 C CNN
 F 3 "" H 9150 3450 50  0001 C CNN
 	1    9150 3250
 	1    0    0    -1  
@@ -826,7 +824,7 @@ U 1 1 5F81DA43
 P 9150 3850
 F 0 "SW22" H 9150 4135 50  0000 C CNN
 F 1 "SW_Push" H 9150 4044 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 9150 4050 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 9150 4050 50  0001 C CNN
 F 3 "" H 9150 4050 50  0001 C CNN
 	1    9150 3850
 	1    0    0    -1  
@@ -840,7 +838,7 @@ U 1 1 5F81DAC1
 P 9150 4450
 F 0 "SW34" H 9150 4735 50  0000 C CNN
 F 1 "SW_Push" H 9150 4644 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 9150 4650 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 9150 4650 50  0001 C CNN
 F 3 "" H 9150 4650 50  0001 C CNN
 	1    9150 4450
 	1    0    0    -1  
@@ -854,7 +852,7 @@ U 1 1 5F81DB51
 P 9150 5050
 F 0 "SW46" H 9150 5335 50  0000 C CNN
 F 1 "SW_Push" H 9150 5244 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 9150 5250 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 9150 5250 50  0001 C CNN
 F 3 "" H 9150 5250 50  0001 C CNN
 	1    9150 5050
 	1    0    0    -1  
@@ -868,7 +866,7 @@ U 1 1 5F81DC57
 P 9150 5650
 F 0 "SW58" H 9150 5935 50  0000 C CNN
 F 1 "SW_Push" H 9150 5844 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 9150 5850 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 9150 5850 50  0001 C CNN
 F 3 "" H 9150 5850 50  0001 C CNN
 	1    9150 5650
 	1    0    0    -1  
@@ -879,7 +877,7 @@ U 1 1 5F81DD55
 P 9950 3250
 F 0 "SW11" H 9950 3535 50  0000 C CNN
 F 1 "SW_Push" H 9950 3444 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 9950 3450 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 9950 3450 50  0001 C CNN
 F 3 "" H 9950 3450 50  0001 C CNN
 	1    9950 3250
 	1    0    0    -1  
@@ -893,7 +891,7 @@ U 1 1 5F81DE7B
 P 9950 3850
 F 0 "SW23" H 9950 4135 50  0000 C CNN
 F 1 "SW_Push" H 9950 4044 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 9950 4050 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 9950 4050 50  0001 C CNN
 F 3 "" H 9950 4050 50  0001 C CNN
 	1    9950 3850
 	1    0    0    -1  
@@ -907,7 +905,7 @@ U 1 1 5F81DF07
 P 9950 4450
 F 0 "SW35" H 9950 4735 50  0000 C CNN
 F 1 "SW_Push" H 9950 4644 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 9950 4650 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 9950 4650 50  0001 C CNN
 F 3 "" H 9950 4650 50  0001 C CNN
 	1    9950 4450
 	1    0    0    -1  
@@ -921,7 +919,7 @@ U 1 1 5F81E052
 P 9950 5050
 F 0 "SW47" H 9950 5335 50  0000 C CNN
 F 1 "SW_Push" H 9950 5244 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 9950 5250 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 9950 5250 50  0001 C CNN
 F 3 "" H 9950 5250 50  0001 C CNN
 	1    9950 5050
 	1    0    0    -1  
@@ -935,7 +933,7 @@ U 1 1 5F81E0E2
 P 9950 5650
 F 0 "SW59" H 9950 5935 50  0000 C CNN
 F 1 "SW_Push" H 9950 5844 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 9950 5850 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 9950 5850 50  0001 C CNN
 F 3 "" H 9950 5850 50  0001 C CNN
 	1    9950 5650
 	1    0    0    -1  
@@ -946,7 +944,7 @@ U 1 1 5F81E233
 P 10750 3250
 F 0 "SW12" H 10750 3535 50  0000 C CNN
 F 1 "SW_Push" H 10750 3444 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 10750 3450 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 10750 3450 50  0001 C CNN
 F 3 "" H 10750 3450 50  0001 C CNN
 	1    10750 3250
 	1    0    0    -1  
@@ -960,7 +958,7 @@ U 1 1 5F81E36D
 P 10750 3850
 F 0 "SW24" H 10750 4135 50  0000 C CNN
 F 1 "SW_Push" H 10750 4044 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 10750 4050 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 10750 4050 50  0001 C CNN
 F 3 "" H 10750 4050 50  0001 C CNN
 	1    10750 3850
 	1    0    0    -1  
@@ -974,7 +972,7 @@ U 1 1 5F81E40B
 P 10750 4450
 F 0 "SW36" H 10750 4735 50  0000 C CNN
 F 1 "SW_Push" H 10750 4644 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 10750 4650 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 10750 4650 50  0001 C CNN
 F 3 "" H 10750 4650 50  0001 C CNN
 	1    10750 4450
 	1    0    0    -1  
@@ -988,7 +986,7 @@ U 1 1 5F81E531
 P 10750 5050
 F 0 "SW48" H 10750 5335 50  0000 C CNN
 F 1 "SW_Push" H 10750 5244 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 10750 5250 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 10750 5250 50  0001 C CNN
 F 3 "" H 10750 5250 50  0001 C CNN
 	1    10750 5050
 	1    0    0    -1  
@@ -1002,7 +1000,7 @@ U 1 1 5F81E5D3
 P 10750 5650
 F 0 "SW60" H 10750 5935 50  0000 C CNN
 F 1 "SW_Push" H 10750 5844 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 10750 5850 50  0001 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 10750 5850 50  0001 C CNN
 F 3 "" H 10750 5850 50  0001 C CNN
 	1    10750 5650
 	1    0    0    -1  
@@ -1354,8 +1352,6 @@ F 3 "" H 5600 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 5600 5950
-Wire Wire Line
-	5600 5950 6100 5950
 $Comp
 L #library:D D7
 U 1 1 5F820734
@@ -1412,8 +1408,6 @@ F 3 "" H 6700 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 6700 5950
-Wire Wire Line
-	6700 5950 7200 5950
 $Comp
 L #library:D D8
 U 1 1 5F820BF0
@@ -1704,56 +1698,28 @@ Wire Wire Line
 Connection ~ 4150 5450
 Wire Wire Line
 	4650 5450 4150 5450
-Wire Wire Line
-	4650 5650 4650 5450
 $Comp
 L #library:SW_Push SW61
 U 1 1 5F82303E
-P 4850 5650
-F 0 "SW61" H 4850 5935 50  0000 C CNN
-F 1 "SW_Push" H 4850 5844 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 4850 5850 50  0001 C CNN
-F 3 "" H 4850 5850 50  0001 C CNN
-	1    4850 5650
+P 4850 5600
+F 0 "SW61" H 4850 5885 50  0000 C CNN
+F 1 "SW_Push" H 4850 5794 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 4850 5800 50  0001 C CNN
+F 3 "" H 4850 5800 50  0001 C CNN
+	1    4850 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L #library:SW_Push SW62
 U 1 1 5F8231D3
-P 7000 5650
-F 0 "SW62" H 7000 5935 50  0000 C CNN
-F 1 "SW_Push" H 7000 5844 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 7000 5850 50  0001 C CNN
-F 3 "" H 7000 5850 50  0001 C CNN
-	1    7000 5650
+P 7000 5600
+F 0 "SW62" H 7000 5885 50  0000 C CNN
+F 1 "SW_Push" H 7000 5794 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 7000 5800 50  0001 C CNN
+F 3 "" H 7000 5800 50  0001 C CNN
+	1    7000 5600
 	1    0    0    -1  
 $EndComp
-$Comp
-L #library:D D61
-U 1 1 5F823305
-P 5050 5800
-F 0 "D61" V 5096 5721 50  0000 R CNN
-F 1 "D" V 5005 5721 50  0000 R CNN
-F 2 "#footprint:diode_SMD" H 5050 5800 50  0001 C CNN
-F 3 "" H 5050 5800 50  0001 C CNN
-	1    5050 5800
-	0    -1   -1   0   
-$EndComp
-Connection ~ 5050 5950
-Wire Wire Line
-	5050 5950 5600 5950
-$Comp
-L #library:D D62
-U 1 1 5F82342D
-P 7200 5800
-F 0 "D62" V 7246 5721 50  0000 R CNN
-F 1 "D" V 7155 5721 50  0000 R CNN
-F 2 "#footprint:diode_SMD" H 7200 5800 50  0001 C CNN
-F 3 "" H 7200 5800 50  0001 C CNN
-	1    7200 5800
-	0    -1   -1   0   
-$EndComp
-Connection ~ 7200 5950
 Text GLabel 3600 1500 2    50   Input ~ 0
 X5
 Text GLabel 3600 1700 2    50   Input ~ 0
@@ -1797,30 +1763,14 @@ X2
 $Comp
 L #library:SW_Push SW63
 U 1 1 5F845E1C
-P 5900 5650
-F 0 "SW63" H 5900 5935 50  0000 C CNN
-F 1 "SW_Push" H 5900 5844 50  0000 C CNN
-F 2 "#footprint:CherryMX_MidHeight_16mm_rev3" H 5900 5850 50  0001 C CNN
-F 3 "" H 5900 5850 50  0001 C CNN
-	1    5900 5650
+P 5900 5600
+F 0 "SW63" H 5900 5885 50  0000 C CNN
+F 1 "SW_Push" H 5900 5794 50  0000 C CNN
+F 2 "#footprint:CherryMX_MidHeight_16mm_rev2" H 5900 5800 50  0001 C CNN
+F 3 "" H 5900 5800 50  0001 C CNN
+	1    5900 5600
 	1    0    0    -1  
 $EndComp
-$Comp
-L #library:D D63
-U 1 1 5F845F3C
-P 6100 5800
-F 0 "D63" V 6146 5721 50  0000 R CNN
-F 1 "D" V 6055 5721 50  0000 R CNN
-F 2 "#footprint:diode_SMD" H 6100 5800 50  0001 C CNN
-F 3 "" H 6100 5800 50  0001 C CNN
-	1    6100 5800
-	0    -1   -1   0   
-$EndComp
-Connection ~ 6100 5950
-Wire Wire Line
-	6100 5950 6700 5950
-Wire Wire Line
-	5700 5650 5700 5450
 Wire Wire Line
 	5700 5450 5200 5450
 Connection ~ 5200 5450
@@ -1834,10 +1784,6 @@ Wire Wire Line
 	4550 4750 5600 4750
 Wire Wire Line
 	4550 5350 5600 5350
-Wire Wire Line
-	4550 5950 5050 5950
-Wire Wire Line
-	7200 5950 7750 5950
 Wire Wire Line
 	10150 4150 10950 4150
 Wire Wire Line
@@ -2005,4 +1951,31 @@ Wire Wire Line
 	9350 4750 10150 4750
 Wire Wire Line
 	9350 5350 10150 5350
+Wire Wire Line
+	4550 5950 5600 5950
+Wire Wire Line
+	5600 5950 6700 5950
+Wire Wire Line
+	6700 5950 7750 5950
+Wire Wire Line
+	5700 5600 5700 5450
+Wire Wire Line
+	6800 5600 6800 5450
+Wire Wire Line
+	4650 5600 4650 5450
+Wire Wire Line
+	7200 5600 7200 5650
+Wire Wire Line
+	7200 5650 6700 5650
+Connection ~ 6700 5650
+Wire Wire Line
+	6100 5600 6100 5650
+Wire Wire Line
+	6100 5650 5600 5650
+Connection ~ 5600 5650
+Wire Wire Line
+	5050 5600 5050 5650
+Wire Wire Line
+	5050 5650 4550 5650
+Connection ~ 4550 5650
 $EndSCHEMATC
