@@ -1,7 +1,7 @@
 # Ukiha PCB Data
 
 ## Schematic
-[Schematic PDF](../doc/ukiha.pdf?raw=true)
+[Schematic PDF](../doc/schematic.pdf?raw=true)
 ![Schematic](../doc/schematic.png?raw=true)
 
 ## PCB Layout
