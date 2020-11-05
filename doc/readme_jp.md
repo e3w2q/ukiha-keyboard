@@ -85,7 +85,7 @@ Pro Microにエポキシ接着剤を盛って、簡単にはもげないよう�
 
 ![backside](backside.jpg)
 
-まず片方のパッド上にはんだを溶かして盛ります。ここからしばらく画像は別の基板のものですが、やることは同じです。
+まず片方のパッド上にはんだを溶かして盛ります。以降の画像は時々別の基板だったりしますが、やることは同じです。
 
 ![diode_position](diode_position.jpg)
 
@@ -109,7 +109,11 @@ Pro Microにエポキシ接着剤を盛って、簡単にはもげないよう�
 
 ![switch_attach](switch_attach.jpg)
 
-裏返してハンダ付けします。
+裏返します。
+
+Pro Microが取り付けられる部分のスイッチ2個の足を基板からはみ出さないようにニッパーでカットしておきます。
+
+ハンダ付けします。
 
 ![switch_soldered](switch_soldered.jpg)
 
