@@ -69,7 +69,7 @@
     (grid_origin 27.102501 36.80625)
     (visible_elements 7FFFFFEF)
     (pcbplotparams
-      (layerselection 0x010f0_ffffffff)
+      (layerselection 0x01020_7ffffffe)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -90,7 +90,7 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk true)
-      (outputformat 5)
+      (outputformat 4)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
@@ -127,7 +127,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F93FECD)
-    (at 125.102501 146.80625 180)
+    (at 124.602501 146.30625 180)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -141,7 +141,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F93FEC5)
-    (at 59.102501 146.80625 180)
+    (at 59.102501 146.30625 180)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -155,7 +155,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F93FE0A)
-    (at 113.102501 140.80625 90)
+    (at 112.602501 140.30625 90)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -169,7 +169,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F93FE06)
-    (at 97.102501 140.80625 90)
+    (at 97.102501 140.30625 90)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -183,7 +183,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F93FDFE)
-    (at 113.102501 74.80625 90)
+    (at 112.602501 74.80625 90)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -197,7 +197,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F8737BE)
-    (at 29.102501 38.80625)
+    (at 29.602501 39.30625)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -211,7 +211,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F8737BA)
-    (at 95.102501 38.80625)
+    (at 95.102501 39.30625)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -225,7 +225,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F87374A)
-    (at 35.102501 110.80625 270)
+    (at 35.602501 110.80625 270)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -239,7 +239,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F873746)
-    (at 51.102501 44.80625 270)
+    (at 51.102501 45.30625 270)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -253,7 +253,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F873742)
-    (at 35.102501 44.80625 270)
+    (at 35.602501 45.30625 270)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -299,7 +299,7 @@
   (gr_line (start 98.102501 76.80625) (end 98.102501 72.80625) (layer Edge.Cuts) (width 0.15) (tstamp 5F93FE05))
   (gr_line (start 115.102501 42.80625) (end 115.102501 140.80625) (layer Edge.Cuts) (width 0.15) (tstamp 5F93FE04))
   (gr_line (start 98.102501 72.80625) (end 110.102501 72.80625) (layer Edge.Cuts) (width 0.15) (tstamp 5F93FE03))
-  (gr_line (start 110.102501 137.80625) (end 110.102501 77.30625) (layer Edge.Cuts) (width 0.15) (tstamp 5F93FE02))
+  (gr_line (start 110.102501 137.80625) (end 110.102501 76.80625) (layer Edge.Cuts) (width 0.15) (tstamp 5F93FE02))
   (gr_line (start 97.102501 83.30625) (end 93.102501 83.30625) (layer Edge.Cuts) (width 0.15) (tstamp 5F8738E6))
   (gr_line (start 32.102501 41.80625) (end 32.102501 54.80625) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 27.102501 38.80625) (end 27.102501 54.80625) (layer Edge.Cuts) (width 0.15))
@@ -321,6 +321,6 @@
   (gr_line (start 38.102501 108.80625) (end 50.102501 108.80625) (layer Edge.Cuts) (width 0.15) (tstamp 5F873752))
   (gr_line (start 67.102501 42.80625) (end 67.102501 47.80625) (layer Edge.Cuts) (width 0.15) (tstamp 5F873751))
   (gr_line (start 67.102501 47.80625) (end 38.102501 47.80625) (layer Edge.Cuts) (width 0.15) (tstamp 5F87374F))
-  (gr_line (start 38.102501 47.80625) (end 38.102501 108.30625) (layer Edge.Cuts) (width 0.15) (tstamp 5F87374E))
+  (gr_line (start 38.102501 47.80625) (end 38.102501 108.80625) (layer Edge.Cuts) (width 0.15) (tstamp 5F87374E))
 
 )

@@ -90,7 +90,7 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk true)
-      (outputformat 4)
+      (outputformat 5)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
@@ -127,7 +127,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F873FF6)
-    (at 113.102501 74.80625 90)
+    (at 112.602501 74.80625 90)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -141,7 +141,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F873FF2)
-    (at 113.102501 140.80625 90)
+    (at 112.602501 140.30625 90)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -155,7 +155,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F873FEE)
-    (at 97.102501 140.80625 90)
+    (at 97.102501 140.30625 90)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -169,7 +169,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F873DDA)
-    (at 34.602501 44.30625 270)
+    (at 35.102501 44.80625 270)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -183,7 +183,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F873DD6)
-    (at 50.602501 44.30625 270)
+    (at 50.602501 44.80625 270)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -197,7 +197,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F873DD2)
-    (at 34.602501 110.30625 270)
+    (at 35.102501 110.30625 270)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -211,7 +211,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F873F29)
-    (at 125.102501 130.30625 180)
+    (at 124.602501 130.30625 180)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -225,7 +225,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F873F35)
-    (at 59.102501 146.30625 180)
+    (at 59.102501 145.80625 180)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -239,7 +239,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F873F41)
-    (at 125.102501 146.30625 180)
+    (at 124.602501 145.80625 180)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -253,7 +253,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F873B5B)
-    (at 29.102501 54.80625)
+    (at 29.602501 54.80625)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -267,7 +267,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F873A6B)
-    (at 29.102501 38.80625)
+    (at 29.602501 39.30625)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
@@ -281,7 +281,7 @@
   )
 
   (module "#footprint:M2_Hole_Edge.Cuts" (layer F.Cu) (tedit 5E64FB56) (tstamp 5F873A67)
-    (at 95.102501 38.80625)
+    (at 95.102501 39.30625)
     (descr "Resitance 3 pas")
     (tags R)
     (autoplace_cost180 10)
